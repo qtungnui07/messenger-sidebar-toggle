@@ -1,10 +1,11 @@
-# 💬 Messenger Sidebar Toggle
+# Messenger Sidebar Toggle
 
-Ẩn/hiện thanh danh sách Chats bên trái trên Facebook Messenger — giúp khung chat chiếm toàn màn hình khi cần tập trung.
+Ẩn/hiện thanh danh sách Chats bên trái trên Facebook Messenger — giúp khung chat chiếm toàn màn hình.
 
-![Before/After](https://i.imgur.com/placeholder.png)
+![Before](/assets/img/firefox_zT3vwWmBgH.png)
+![After](/assets/img/firefox_3mCtSaVjaP.png)
 
-## ✨ Tính năng
+## Features
 
 - **Ẩn/hiện** cột danh sách Chats bên trái chỉ với 1 click
 - **Khung chat tự mở rộng** chiếm toàn bộ phần còn lại khi ẩn sidebar
@@ -12,7 +13,7 @@
 - Hoạt động trên cả **Chrome** và **Firefox**
 - Nhẹ, không tracking, không gửi dữ liệu đi đâu
 
-## 🚀 Cài đặt
+## Installation
 
 ### Chrome / Edge
 
@@ -35,14 +36,13 @@
 2. Vào `about:addons` → ⚙️ → **"Install Add-on From File..."**
 3. Chọn file `.zip` hoặc `manifest.json`
 
-## 🎮 Sử dụng
 
 | Hành động | Cách dùng |
 |-----------|-----------|
 | Ẩn/hiện sidebar | Click nút 🔲 ở cạnh trái màn hình |
 | Phím tắt | `Alt + Q` |
 
-## 📁 Cấu trúc
+## Tree
 
 ```
 messenger-sidebar-toggle/
@@ -53,7 +53,7 @@ messenger-sidebar-toggle/
 └── README.md
 ```
 
-## 🛠 Cách hoạt động
+## Cách hoạt động
 
 Extension inject một nút nhỏ vào cạnh trái trang Messenger. Khi bấm:
 
@@ -61,6 +61,6 @@ Extension inject một nút nhỏ vào cạnh trái trang Messenger. Khi bấm:
 2. Set `width: 0` + `overflow: hidden` để ẩn sidebar
 3. Set `flex: 1 1 100%` cho khung chat để mở rộng tự động
 
-## 📄 License
+## License
 
 MIT
