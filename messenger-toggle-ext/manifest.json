@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Messenger Sidebar Toggle",
+  "version": "1.0",
+  "description": "Ẩn/hiện thanh Chats bên trái trên Facebook Messenger",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "messenger-sidebar-toggle@local",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/messages*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
